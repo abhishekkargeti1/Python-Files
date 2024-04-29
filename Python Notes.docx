@@ -1,0 +1,248 @@
+# letter A to Z And a to z
+# Digit 0 to 9
+# Special Symbols -+*/ etc
+# (a**b) means b is teh power of a.
+# WhiteSpaces  Blank Space , tab, carriage return , newLine , formfeed
+# Other characters  - Python can process  all Ascii  and Unicode character  as part of data or literal
+# Python is case sensitive language.
+# Python is implicit language.
+
+Variable  :- A Variable is a name  given to a memory  location in a program.
+ Example :- name = "Abhishek"
+
+Rules For Identifies
+1. Identifies can be a combination of  uppercase and lowercase  letter , digits or an (_) underscore
+    so myVariable, Variable_1, etc all are valid  Python Identifies.
+
+2. An Identifies can not start with digits 
+    so Variable1 is valid but 1variable is not valid.
+
+3. We can not use special symbols like ! # @ % &.
+
+4. Identifies can be of any length.
+
+Data Types
+
+1. Integer
+
+2. String   (can be writen in 3 types ("Abhishek"),('Abhishek'),(''' Abhishek'''))
+
+3. Float
+
+4. Boolean   (True And False )
+
+5. None    (It represent a Variable who did't have any value stored )
+
+Keywords :-  Words which are reserved in Python.
+
+{
+    and    else     in        return
+    as     except   is         True
+  assert   Finally  lambda      try
+  break    False    nonlocal    with
+  class    for      None        while
+continue   from      not         yeild
+def        global    or         del
+if         pass     elif        import
+raise 
+}
+
+Types of Tokens
+
+Punctuators :- These are the symbols to organize sentence structure in programming.
+Example :- (),{},@,[],#,-=,+=,/=,*=,//=,= etc.
+
+
+Operator precedence 
+
+1. Parentheses{}
+    {}
+
+2. Exponentiation 
+    **       
+
+3. Bitwise nor
+    ~x
+
+4. Positive , negative (unary +,-)
+    +x,-x
+
+5. Multiplication, Division, Floor Division ,Remainder
+    *,/,//,%
+
+6. Addition, Subtraction 
+    +,-
+
+7. Bitwise and
+    &
+
+8.  Bitwise XOR
+    ^
+
+9.  Bitwise OR
+    |
+
+10. Comparisons(Relational Operators), identity Operators
+    <,<=,>,>=,<>,!=,==,is,isnot
+
+11. Logical Operators
+
+     Boolean not  (convert True into False or False into True)
+     Boolean and  (And says one value should be false will be False)
+     Boolean Or   (Or says one value should be True answer will be True)
+
+
+Rules of AND and Or
+
+AND                               OR
+T T =T                         T T = T
+F T =F                         T F = T 
+T F = F                        F T = T
+F F = F                        F F = F
+Expression Execution 
+
+Example:-
+
+A,B= 2,3
+Txt ="@"
+print(2*Txt*3)  # Here when ever number is getting multiple with string it will repeat n number of time (n depends upto the number by which string is multipling).
+
+
+A,B="2",3
+Txt ="@"
+print((A+Txt)*B)   #  Here two Strings are adding with the help of + sign and repeat but multipling with B.
+
+A,B=2,3
+C=4
+print(A+B*C)  #  Here first multiple done first then addition will take place.
+
+
+
+A,B= 10,5.0
+C =A*B
+print(C)  # A Expression with Integer and Float it will all always return Float.
+
+
+A,B=1,2
+C=A/B
+print(C)   # Division of two Integer always return a flaot value.
+
+
+A,B = 1.5,3
+C= A //B  # (To get round of value after the division) && (Here first the value of division comes into Integer and then convert intp flaot).
+print(C,A/B) #  (Here in second Expression answer directly convert into float value).
+
+floor :- It will give the closest Integer, which  is lesser  than or equal to floor value.
+    Result of (A//B) is same as  floor(A/B).
+
+A,B=12,5
+C = A//B
+print(C) 
+
+Output 
+2
+
+A,B=-12,5
+C=A//B
+print(C)
+
+Output
+-3
+
+A,B=12,-5
+C=A//B
+print(C)
+
+Output
+-3
+
+
+Remainder is negative when denominator is negative
+
+A,B=5,-2
+C=A%B
+print(C)
+
+Output
+-1
+
+
+Comments in Python :- Means lines which compiler is going to ignore .
+
+ # single Line Comments.
+
+ """  This is a multi -line  Comment """
+
+
+
+input() statement is use to get input from user.
+
+Example :-
+
+string input
+name=input("name : ")
+
+int input
+age = int(input("age : "))
+
+float input
+price = float(input("price :"))
+
+
+Conditional statement :- Statements which have Condition are called Conditional statement.
+we can write Condition statement in 3 forms :-
+
+1. if elif else
+2. if 
+3. if elif
+
+ Python support  indentation .
+ syntax :-
+ if(Condition):
+    Statement 1
+elif(Condition):
+    Statement 2
+else:
+    Statement 3
+
+Example 1 :-
+
+age = int(input("Enter your Age "))
+if(age>=18):
+    print("You are Eligible")
+else:
+    print("You are not Eligible")
+
+Example 2 :-
+
+light =input("Enter the color of light ")
+if(light == "red"):
+    print("Stop")
+elif(light =="Yellow"):
+    print("Look")
+elif(light == "Green"):
+    print("Go")
+else:
+    print("Incorrect Light Color")
+
+Ternary Operator 
+
+Syntax 1 :-
+
+<var>= <var1>if<condition>else<var2>
+
+Example :-
+
+    Food = input("Enter any food name ")
+    eat = "Yes"if Food== "cake" else "No"
+
+
+Syntax 2 :-
+
+<Statement1>if<condition>else<Statement>
+
+Example :-
+
+Food = input("Enter Any Food name ")
+print("Yes")if Food == "cake" or Food == "Paties" else print("No")
+
