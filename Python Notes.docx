@@ -1,3 +1,6 @@
+
+                                                            Chapter 1
+
 # letter A to Z And a to z
 # Digit 0 to 9
 # Special Symbols -+*/ etc
@@ -246,3 +249,121 @@ Example :-
 Food = input("Enter Any Food name ")
 print("Yes")if Food == "cake" or Food == "Paties" else print("No")
 
+
+Syntax 3 :-
+
+<var> = (False_var, True_val)[<Condition>]
+
+age = int(input("Enter your age"))
+vote = ("No","Yes")[age<18]
+print(vote)
+
+
+Type Conversion
+
+It is done by interprater automatically .
+
+Example :-
+
+a =2 
+b= 2.34
+sum = a+b   (Here integer automatically convert integer into float because float is higher in compare to integer).
+
+
+a = "2"
+b= 2.34
+sum = a+b  (here error comes because String will not add into float value)
+
+To overcome the above error we can do this :-
+
+a = int("2")
+b =10
+sum = a+b
+print(type(a))
+print(sum)
+
+
+                                                                    Chapter 2
+
+
+String :-  It is a data type that stores a sequence of characters.
+
+    Syntax :-
+        str1 ="Abhishek"
+        str1 ='Abhishek'
+        str1 = """Abhishek"""
+
+Escape sequence character :-  It means special character which are use to format the text .
+        1. \n :- use to get nextline in program.
+        2. \t :- use to get tab space in a line .
+
+Basic Operation :-
+
+1. Concatenation
+    Example :-
+            "Hello"+"World"="HelloWorld"
+
+2. length of str
+    Example :- 
+            len(str)
+        
+3. Indexing 
+    Example :-
+          str1 = A,B,H,I,S,H,E,K 
+          index  0 1 2 3 4 5 6 7
+
+4. Slicing
+    Example :-
+           str[starting_idx : ending_idx]  endinn_index is not include.
+           str = "Abhishek"
+           print(str[1:7]) 
+
+           str = "Abhishek"
+           print(str[:8])
+
+           str ="Abhishek"
+           print(str[0:])
+
+           str = "APPLE"
+           print(str[-3:-1])
+
+Basic functions of String 
+
+1. endwith
+    syntax :-
+            str.endwith("er.") return true if string ends with given substring else false.
+
+2. capitalize 
+    syntax :- 
+            str.capitalize()  convert lowercase to uppercase only first character
+
+3. replace 
+    syntax :-
+            str.replace(old_value , new_value)  replace all old values with new values.
+
+4. find
+    syntax :-
+            str.find("word to find")  this will find the word in String and return the first index of that word.
+
+5. count
+    syntax :-
+            str.count() this will find the number of occurance of word in a String.
+
+
+                                                    Chapter 3
+
+Lists in Python
+    A build in data type that stores set of values.
+    It can store element of different type (integer, float , string).
+    We can store different type of data together in lists.
+    Strings are immutable
+    lists are mutable 
+    Example :-
+           marks= [23,45,67,89,"Abhishek"]
+           print(len(marks))
+           marks[0]="abhi"
+           print(marks)
+
+List Slicing
+    syntax :-
+            list_name[starting_idx:ending_idx] ending_idx is not included
