@@ -188,3 +188,54 @@
 # print(len(marks))
 # marks[0]="abhi"
 # print(marks)
+
+# marks = [85,94,63,48]
+# print(marks[1:4])
+
+# list = [1,2,3,4]
+# list.append(5)
+# print(list)
+
+# list = [2,5,6,1,3]
+# list.sort()
+# print(list)
+
+# list = [2,5,6,1,3]
+# list.sort(reverse=True)
+# print(list)
+
+# list =[1,2,3,4,5,6]
+# list.reverse()
+# print(list)
+
+# list = [1,2,4,5,6]
+# list.insert(2,3)
+# print(list)
+
+# list = [1,32,1,2]
+# list.remove(1)
+# print(list)
+
+# list =[1,2,3,4,5]
+# list.pop(3)
+# print(list)
+
+# tup = (1,2,3,4,5)
+# print(tup)
+# print(type(tup))
+# print(tup[1])
+
+# tup=()
+# print(tup)
+
+# tup =(1,)
+# print(tup)
+
+# tup = (1,2,3,4,5)
+# print(tup[1:2])
+
+# tup = (1,2,3,4,5,1,3,4,5,2)
+# print(tup.index(1))
+
+# tup =(1,2,3,4,5,5,4,3,2,1)
+# print(tup.count(2))
