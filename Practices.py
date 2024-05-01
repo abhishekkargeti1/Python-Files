@@ -239,3 +239,111 @@
 
 # tup =(1,2,3,4,5,5,4,3,2,1)
 # print(tup.count(2))
+
+# dict ={
+#     "name" : "Abhishek",
+#     "age"  : 22,
+#     "marks": [56,65,76,]
+# }
+# print(dict)
+# print(dict["name"])
+# dict["name"] = "Abhi"
+# print(dict["name"])
+# print(type(dict))
+
+
+# student ={
+#     "name" : "Abhishek",
+#     "Subject" :{
+#      "english" : 78,
+#      "Maths"   : 67,
+#     "Economics" : 89,
+#     },
+#     "age" : 22
+# }
+# print(student)
+# print(student["Subject"])
+# print(student["Subject"]["english"])
+
+# student ={
+#     "name" : "Abhishek",
+#     "Subject" : {
+#         "english" : 78,
+#         "Maths"   : 67,
+#         "Economics" : 89,
+#     },
+#     "age" : 22
+
+# }
+# print(student.keys())
+
+# typecast 
+
+# student ={
+#     "name" : "Abhishek",
+#     "Subject" : {
+#         "english" : 78,
+#         "Maths"   : 67,
+#         "Economics" : 89,
+#     },
+#     "age" : 22
+
+# }
+# print(len(list(student.keys())))
+
+
+# student ={
+#     "name" : "Abhishek",
+#     "Subject" : {
+#         "english" : 78,
+#         "Maths"   : 67,
+#         "Economics" : 89,
+#     },
+#     "age" : 22
+
+# }
+# print(list(student.values()))
+
+
+# student ={
+#     "name" : "Abhishek",
+#     "Subject" : {
+#         "english" : 78,
+#         "Maths"   : 67,
+#         "Economics" : 89,
+#     },
+#     "age" : 22
+
+# }
+# pair = list(student.items())
+# print(pair[0])
+
+
+
+# student ={
+#     "name" : "Abhishek",
+#     "Subject" : {
+#         "english" : 78,
+#         "Maths"   : 67,
+#         "Economics" : 89,
+#     },
+#     "age" : 22
+
+# }
+# print(student["name"])
+# print(student.get("name1"))
+
+
+student ={
+    "name" : "Abhishek",
+    "Subject" : {
+        "english" : 78,
+        "Maths"   : 67,
+        "Economics" : 89,
+    },
+    "age" : 22
+
+}
+student.update({"city" : "Delhi"})
+print(student)
+

@@ -451,5 +451,101 @@ Dictionary in Python
 Dictionaries are used to store data values in key :value pairs.
 They are unordered , mutable & don't allow duplicate key . 
 Only immutable items can be a key .
+Al primitive data type and tuple can be key.
+
+Example :-
+dict ={
+      "name" : "Abhishek",
+      "age"  : 22,
+      "marks": [56,65,76,]
+     }
+print(dict)
+
+Nested Dictionaries 
+
+            Example :-
+                student ={
+                    "name" : "Abhishek",
+                    "Subject" : {
+                        "english" : 78,
+                        "Maths"   : 67,
+                        "Economics" : 89,
+                    },
+                    "age" = 22,
+                }
+
+Dictionary Methods
+
+.keys :- return all keys
+
+         student ={
+                    "name" : "Abhishek",
+                    "Subject" : {
+                        "english" : 78,
+                        "Maths"   : 67,
+                        "Economics" : 89,
+                    },
+                    "age" = 22,
+                }
+
+            print(student.keys())
+
+.values :- return all values.
+
+         student ={
+                    "name" : "Abhishek",
+                    "Subject" : {
+                        "english" : 78,
+                        "Maths"   : 67,
+                        "Economics" : 89,
+                    },
+                    "age" = 22,
+                }
+
+            print(student.values())
+
+.items  :- return all key value pairs as tuples.
+
+            student ={
+                    "name" : "Abhishek",
+                    "Subject" : {
+                        "english" : 78,
+                        "Maths"   : 67,
+                        "Economics" : 89,
+                    },
+                    "age" = 22,
+                }
+
+            print(student.items())
+
+.get :- return the key according to thir value 
 
             
+            student ={
+                    "name" : "Abhishek",
+                    "Subject" : {
+                        "english" : 78,
+                        "Maths"   : 67,
+                        "Economics" : 89,
+                    },
+                    "age" = 22,
+                }
+
+            print(student.get("name"))
+
+.update  :- insert the specified items to the Dictionary
+
+        student ={
+                    "name" : "Abhishek",
+                    "Subject" : {
+                        "english" : 78,
+                        "Maths"   : 67,
+                        "Economics" : 89,
+                    },
+                    "age" = 22,
+                }
+
+            student.update({"city" : "Delhi"})
+            print(student)
+
+
