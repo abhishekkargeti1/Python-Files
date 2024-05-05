@@ -4,7 +4,7 @@
 # letter A to Z And a to z
 # Digit 0 to 9
 # Special Symbols -+*/ etc
-# (a**b) means b is teh power of a.
+# (a**b) means b is the power of a.
 # WhiteSpaces  Blank Space , tab, carriage return , newLine , formfeed
 # Other characters  - Python can process  all Ascii  and Unicode character  as part of data or literal
 # Python is case sensitive language.
