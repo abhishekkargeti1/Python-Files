@@ -334,16 +334,38 @@
 # print(student.get("name1"))
 
 
-student ={
-    "name" : "Abhishek",
-    "Subject" : {
-        "english" : 78,
-        "Maths"   : 67,
-        "Economics" : 89,
-    },
-    "age" : 22
+# student ={
+#     "name" : "Abhishek",
+#     "Subject" : {
+#         "english" : 78,
+#         "Maths"   : 67,
+#         "Economics" : 89,
+#     },
+#     "age" : 22
 
-}
-student.update({"city" : "Delhi"})
-print(student)
+# }
+# student.update({"city" : "Delhi"})
+# print(student)
 
+# collection = {1,2,3,"hello",4,5,"update",2}
+# print(type(collection))
+# print(collection)
+# print(len(collection))
+
+# collection = set()
+# print(type(collection))
+
+collection = set()
+collection.add(2)
+collection.add(3)
+collection.add(4)
+collection.add(5)
+collection.add(6)
+collection.add(1)
+collection.add((1,2,3,4,5))
+# collection.add([1,2,3,4,5,6])
+# collection.remove(1)
+print(collection.pop())
+# print(collection)
+# collection.clear()
+print(len(collection))

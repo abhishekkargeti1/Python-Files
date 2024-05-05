@@ -548,4 +548,45 @@ Dictionary Methods
             student.update({"city" : "Delhi"})
             print(student)
 
+Set in Python
 
+Set is the collection of the unordered items.
+Each element in the set must be unique & immutable.
+we can't store list and Dictionary in set.
+set is mutable but its elements are immutable.
+
+Example :-
+
+collection = {1,2,3,"hello",4,5,"update",2}
+print(type(collection))
+print(collection)
+print(len(collection))
+
+How to create empty set 
+
+collection = set()
+print(type(collection))
+
+Sets methods
+
+1. add :-  add the element in set.
+
+set.add(item)
+
+2. remove :- remove element from set 
+
+set.remove(item)
+
+3. clear :- use to empty the set
+
+set.clear()
+
+4. pop :- remove random value from set.
+
+set.pop()
+
+5. union :- combine both set value & return new.
+
+set.union(set2)
+
+6. intersection :- combine common value & return new.
